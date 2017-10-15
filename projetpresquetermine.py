@@ -4,10 +4,9 @@ cartes = [0, "As", 2, 3, 4, 5, 6, 7, 8, 9, 10, "Valet", "Dame", "Roi"]
 
 
 def jeu(argent):
-    score1, score2, carte_tire1, carte_tire2, nbcartes,nbcartesbanque= 0, 0, 0, 0, 0, 0
+    score1, score2, carte_tire1, carte_tire2, nbcartes, nbcartesbanque = 0, 0, 0, 0, 0, 0
     print("Veuillez entrer votre mise (vous avez : ", argent, ")")
     mise = int(input())
-    # c tout je crois une derniere chose stp mdrrr regarde
     rejouer = 1
     while rejouer == 1:
         carte_tire1 = randint(1, 13)
